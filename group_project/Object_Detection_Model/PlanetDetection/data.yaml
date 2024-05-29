@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['Earth', 'Jupiter', 'Makemake', 'Mars', 'Mercury', 'Moon', 'Neptune', 'Pluto', 'Saturn', 'Uranus', 'Venus']
+
+roboflow:
+  workspace: yong-hann-choo-wdvd2
+  project: planets-hmb4g
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yong-hann-choo-wdvd2/planets-hmb4g/dataset/1
